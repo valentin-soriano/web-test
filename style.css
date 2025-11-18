@@ -1,0 +1,21 @@
+body {
+  background: #1a1a1a;
+  color: #f871d6;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  background: lch(64.98% 60.95 26.65);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: oklch(98.885% 0.00104 11.205);
+}
